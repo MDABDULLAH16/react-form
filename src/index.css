@@ -1,3 +1,10 @@
+.family-tree div {
+  border: 1px solid salmon;
+  padding: 20px;
+}
+.flex {
+  display: flex;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -1,6 +1,7 @@
 import "./App.css";
 import ActionForm from "./components/ActionForm/ActionForm";
 import ControlledForm from "./components/ControlledForm/ControlledForm";
+import FamilyTree from "./components/FamilyTree/FamalyTree";
 import HookForm from "./components/HookForm/HookForm";
 import SimpleForm from "./components/SimpleForm/SimpleForm";
 import UncontrolledField from "./components/UncontrolledField/UncontrolledField";
@@ -13,7 +14,8 @@ const App = () => {
       {/* <ActionForm></ActionForm> */}
       {/* <ControlledForm></ControlledForm> */}
       {/* <UncontrolledField></UncontrolledField> */}
-      <HookForm></HookForm>
+      {/* <HookForm></HookForm> */}
+      <FamilyTree></FamilyTree>
     </div>
   );
 };
